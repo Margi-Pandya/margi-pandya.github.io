@@ -232,6 +232,25 @@ a.write-link:hover { border-color: var(--accent); transform: translateY(-2px); }
 .write-link-arrow { position: absolute; right: 24px; top: 50%; transform: translateY(-50%); color: var(--accent); font-size: 1.3rem; }
 .write-link.is-soon { border-style: dashed; opacity: 0.75; }
 
+/* Off the clock: hikes */
+.hikes-title { max-width: 720px; line-height: 1.25; margin-bottom: 28px; }
+.hikes-label {
+  display: flex; align-items: center; gap: 8px; margin-bottom: 14px;
+  font-size: 0.82rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent);
+}
+.hikes-count {
+  font-size: 0.75rem; color: var(--muted); background: var(--accent-soft);
+  border-radius: 999px; padding: 1px 8px; letter-spacing: 0;
+}
+.hike-pills { list-style: none; display: flex; flex-wrap: wrap; gap: 10px; }
+.hike-pill {
+  display: flex; flex-direction: column; gap: 2px;
+  padding: 10px 16px; border: 1px solid var(--line); border-radius: 12px; background: var(--card);
+}
+.hike-name { font-weight: 600; font-size: 0.95rem; }
+.hike-meta { font-size: 0.82rem; color: var(--muted); }
+.hikes-note { margin-top: 18px; font-size: 0.8rem; color: var(--muted); }
+
 /* Search pop-up */
 .search-overlay {
   position: fixed; inset: 0; z-index: 50;

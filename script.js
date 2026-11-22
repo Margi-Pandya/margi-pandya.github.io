@@ -56,8 +56,8 @@
   document.querySelectorAll("main section").forEach(function (sec) {
     var h2 = sec.querySelector("h2");
     var label = h2 ? clean(h2.textContent) : "About";
-    sec.querySelectorAll(".card, .pub-list li, .timeline li, .simple-list li, .write-link").forEach(function (el) {
-      var t = el.querySelector("h3, .pub-title, .write-link-name, strong");
+    sec.querySelectorAll(".card, .pub-list li, .timeline li, .simple-list li, .write-link, .hike-pill").forEach(function (el) {
+      var t = el.querySelector("h3, .pub-title, .write-link-name, .hike-name, strong");
       add(el, t ? t.textContent : "", label);
     });
     sec.querySelectorAll(".bio p").forEach(function (p) { add(p, "About Margi", "About"); });
