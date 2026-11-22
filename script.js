@@ -56,8 +56,8 @@
   document.querySelectorAll("main section").forEach(function (sec) {
     var h2 = sec.querySelector("h2");
     var label = h2 ? clean(h2.textContent) : "About";
-    sec.querySelectorAll(".card, .pub-list li, .timeline li, .simple-list li, .write-link, .hike-pill").forEach(function (el) {
-      var t = el.querySelector("h3, .pub-title, .write-link-name, .hike-name, strong");
+    sec.querySelectorAll(".card, .pub-list li, .timeline li, .simple-list li, .write-link, .hike-pill, .book").forEach(function (el) {
+      var t = el.querySelector("h3, .pub-title, .write-link-name, .hike-name, .book-title, strong");
       add(el, t ? t.textContent : "", label);
     });
     sec.querySelectorAll(".bio p").forEach(function (p) { add(p, "About Margi", "About"); });
@@ -69,6 +69,8 @@
     { id: "education", title: "Education", section: "Jump to" },
     { id: "skills", title: "Skills", section: "Jump to" },
     { id: "writing", title: "Writing", section: "Jump to" },
+    { id: "hikes", title: "Hikes & travel", section: "Jump to" },
+    { id: "books", title: "Favourite books", section: "Jump to" },
     { id: "contact", title: "Contact", section: "Jump to" }
   ];
 
