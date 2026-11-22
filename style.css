@@ -127,6 +127,11 @@ h1 {
 .btn-ghost { border: 1px solid var(--line); color: var(--ink); }
 .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
 
+.hero-socials { list-style: none; display: flex; align-items: center; gap: 18px; margin-top: 28px; }
+.hero-social-link { display: inline-flex; color: var(--muted); transition: color 0.15s, transform 0.15s; }
+.hero-social-link:hover { color: var(--accent); transform: translateY(-1px); }
+.hero-social-link svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
+.hero-text .hero-resume-updated { margin: 12px 0 0; font-size: 0.8rem; color: var(--muted); }
 .hero-photo { display: flex; justify-content: center; margin-top: 44px; }
 .avatar {
   position: relative; width: 260px; aspect-ratio: 1; border-radius: 50%;
