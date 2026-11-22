@@ -60,9 +60,7 @@
       var t = el.querySelector("h3, .pub-title, .write-link-name, strong");
       add(el, t ? t.textContent : "", label);
     });
-    if (sec.classList.contains("hero")) {
-      sec.querySelectorAll(".hero-text p:not(.eyebrow)").forEach(function (p) { add(p, "About Margi", "About"); });
-    }
+    sec.querySelectorAll(".bio p").forEach(function (p) { add(p, "About Margi", "About"); });
   });
 
   var quickLinks = [
