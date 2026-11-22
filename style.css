@@ -250,6 +250,8 @@ a.write-link:hover { border-color: var(--accent); transform: translateY(-2px); }
 .hike-name { font-weight: 600; font-size: 0.95rem; }
 .hike-meta { font-size: 0.82rem; color: var(--muted); }
 .hikes-note { margin-top: 18px; font-size: 0.8rem; color: var(--muted); }
+.hikes-label-next { margin-top: 36px; }
+.country-pill { padding: 8px 16px; }
 
 /* Search pop-up */
 .search-overlay {
