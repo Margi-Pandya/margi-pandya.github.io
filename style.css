@@ -209,6 +209,9 @@ h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.4; }
 /* Footer */
 .site-footer { padding: 24px 0; font-size: 0.85rem; color: var(--muted); border-top: 1px solid var(--line); }
 
+/* A card that spans the full row */
+.card.wide { grid-column: 1 / -1; }
+
 /* Skills chips */
 .chips { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
 .chips li {
