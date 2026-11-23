@@ -154,6 +154,8 @@ h1 {
   margin-bottom: 36px;
 }
 .sub-title { font-family: var(--serif); font-size: 1.3rem; font-weight: 600; margin: 48px 0 16px; }
+.sub-title.first { margin-top: 0; }
+.sub-title + .sub-note { margin: -10px 0 18px; font-size: 0.9rem; color: var(--muted); }
 h3 { font-size: 1.05rem; font-weight: 600; line-height: 1.4; }
 
 /* Cards */
